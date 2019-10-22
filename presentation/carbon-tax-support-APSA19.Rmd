@@ -1,0 +1,208 @@
+---
+title: "Revenue Use and Public Support for A Carbon Tax"
+author: |
+  | \textbf{\large{Matthew C. Nowlin}}
+  | \textit{College of Charleston}
+  | \textbf{\large{Kuhika Gupta and Joseph Ripberger}}
+  | \textit{University of Oklahoma}
+institute: American Political Science Association 
+date: August 2019
+bibliography: /Users/nowlinmc/Dropbox/refs.bib
+output:
+  beamer_presentation:
+    keep_tex: yes
+    theme: "metropolis"
+    slide_level: 2
+    fig_crop: false 
+    fig_caption: false
+    includes:
+      in_header: /Users/nowlinmc/Dropbox/Projects/Manuscripts/beamerPackages.txt
+header-includes: 
+- \setbeamertemplate{page number in head/foot}[default]
+---
+
+
+```{r setup, include=FALSE, message=FALSE}
+knitr::opts_knit$set(root.dir = normalizePath(".."))
+```
+
+```{r, include=FALSE, message=FALSE}
+source("scripts/data-recodes.R")
+library(tidyverse)
+library(dotwhisker)
+library(broom)
+
+treat <- table(CTdata$treatment)
+as.vector(treat)
+```
+
+## Carbon Tax  
+
+
+\large 
+
+**Carbon pricing is generally seen by economists and others as the most efficient and effective set of climate mitigation policies**
+
+\vspace{0.25in}
+But, low levels of public support for carbon pricing [@carattiniOvercomingPublicResistance2018]
+
+* Some increase with funds being used for renewable energy [@kotchenPublicWillingnessPay2017; @amdurPublicViewsCarbon2014]
+
+* Some increase with a tax rebate [@carattiniHowWinPublic2019]
+
+# Does revenue use influence public support for a carbon tax?  
+
+---
+
+## Analysis 
+
+\large
+
+**We leverage a survey experiment to examine support for a carbon tax** 
+
+* Overall support, pre-and-post revenue use treatments 
+
+* Ranking of revenue uses post treatment 
+
+* Relative support for a carbon compared to others climate policies 
+
+* Subset analysis for ideology and partisanship 
+
+
+
+## Hypotheses
+
+**Support**
+
+* More support when tax is used for _renewable energy_ or a _tax rebate_
+* More support when tax is used for _deficit reduction_ or a _tax rebate_ for _conservatives_ and _Republicans_  
+
+**Revenue ranking** 
+
+* Ranking of revenue use responsive to experimental condition
+
+**Relative support**
+
+* Increase in ranking when tax is used for _renewable energy_ or a _tax rebate_ 
+* Increase in  ranking when tax is used for _deficit reduction_ or a _tax rebate_ for _conservatives_ and _Republicans_  
+
+---
+
+## Data 
+
+\large 
+
+**Nationally representative sample obtained through Qualtrics**  
+
+**Quotas for age, gender, race/ethnicity** 
+
+**Survey administered through Qualtrics**
+
+**N = `r nrow(CTdata)` ** 
+
+
+## Survey Experiment 
+
+**Respondents were presented with a prompt about a carbon tax, including pro and con arguments** 
+
+**Randomly assigned to one of five tracks**: 
+
+* **General Fund** (n=`r treat[length(treat)-3]`)
+* **Reduce Budget Deficit** (n=`r treat[length(treat)-2]`)
+* **Renewable Technology** (n=`r treat[length(treat)-1]`)
+* **Tax Rebate** (n=`r treat[length(treat)]`)
+* **Control** (n=`r treat[length(treat)-4]`)
+
+Carbon tax support pre-treatment (1 to 7 scale): m = `r round(mean(CTdata$pre_support, na.rm=TRUE),2)`
+
+Post-treatment support: `r round(mean(CTdata$post_support, na.rm=TRUE),3)`
+
+## Results: Support  
+
+\begin{figure}
+\includegraphics[width = 4in, height= 3in]{../fig-output/model.png}
+\end{figure}
+
+## Results: Support by Political Beliefs 
+
+\begin{figure}
+\includegraphics[width = 4in, height= 3in]{../fig-output/ideology-model.png}
+\end{figure}
+
+## Results: Support by Political Beliefs 
+
+\begin{figure}
+\includegraphics[width = 4in, height= 3in]{../fig-output/partisan-model.png}
+\end{figure}
+
+## Results: Revenue Use 
+
+\begin{figure}
+\includegraphics[width = 4in, height= 3in]{../fig-output/rev-rank-graph.png}
+\end{figure}
+
+## Results: Revenue Use 
+
+\begin{figure}
+\includegraphics[width = 4in, height= 3in]{../fig-output/refund-rank-model.png}
+\end{figure}
+
+## Results: Revenue Use 
+
+\begin{figure}
+\includegraphics[width = 4in, height= 3in]{../fig-output/renew-rank-model.png}
+\end{figure}
+
+## Results: Revenue Use 
+
+\begin{figure}
+\includegraphics[width = 4in, height= 3in]{../fig-output/deficit-rank-model.png}
+\end{figure}
+
+## Results: Revenue Use 
+
+\begin{figure}
+\includegraphics[width = 4in, height= 3in]{../fig-output/fund-rank-model.png}
+\end{figure}
+
+## Results: Climate Policy Rankings 
+
+\begin{figure}
+\includegraphics[width = 4in, height= 3in]{../fig-output/rank-graph.png}
+\end{figure}
+
+## Results: Carbon Tax Ranking
+
+\begin{figure}
+\includegraphics[width = 4in, height= 3in]{../fig-output/rank-model.png}
+\end{figure}
+
+## Results: Carbon Tax Ranking by Political Beliefs 
+
+\begin{figure}
+\includegraphics[width = 4in, height= 3in]{../fig-output/ideology-rank-model.png}
+\end{figure}
+
+## Results: Carbon Tax Ranking by Political Beliefs 
+
+\begin{figure}
+\includegraphics[width = 4in, height= 3in]{../fig-output/partisan-rank-model.png}
+\end{figure}
+
+## Conclusion 
+
+**Revenue use can shift support** 
+
+* Tax rebate 
+
+* Tax rebate, deficit reduction for conservatives and Republicans 
+
+**Trade-offs between tax refund and renewable energy investment**  
+
+**Carbon pricing still unpopular relative to other policy options**   
+
+* Tax rebate does shift relative support 
+
+ 
+
+## References 

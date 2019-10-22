@@ -1,0 +1,483 @@
+---
+title: "Revenue Use and Public Support for a Carbon Tax"
+author: 
+- name: Matthew C. Nowlin 
+  title: Associate Professor
+  affiliation: Department of Political Science 
+  affiliation2: College of Charleston 
+  email: nowlinmc@cofc.edu
+- name: Kuhika Gupta
+  title: Research Scientist
+  affiliation: Center for Energy, Security and Society
+  affiliation2: University of Oklahoma
+- name: Joseph T. Ripberger 
+  title: Assistant Professor
+  affiliation: Department of Political Science 
+  affiliation2: University of Oklahoma
+bibliography: /Users/nowlinmc/Dropbox/refs.bib
+csl: /Users/nowlinmc/Dropbox/Projects/Manuscripts/american-political-science-association.csl
+output:
+  pdf_document:
+    keep_tex: yes
+    template: /Users/nowlinmc/Dropbox/Projects/Manuscripts/article.latex
+  word_document: default
+abstract: Many economists and policy scholars agree that a carbon tax is potentially one of the most effective and efficient policy tools available to address climate change. Politically, a carbon tax is seen as a market-based approach to climate change that could attract support from conservatives and others that reject command-and-control regulations. However, political and public support has faltered over discussions of how to use the revenue generated from a carbon tax. In this paper, we examine public support for a federal carbon tax in the US based on how the revenue from the tax is to be used. Specifically, we used a survey experiment to vary how the revenue would be used as either a) a tax rebate, b) investment in renewable energy, c) reduce the budget deficit, d) go into the government’s general fund, or e) a control group with no mention of how the revenue would be used. Additionally, respondents were asked to ranke their preferred uses of the revenue from the tax. Finally, we examined support for a carbon tax relative to other climate policy options by having respondent rank their preferred policies between a carbon tax, cap-and-trade, EPA regulations, international agreement, state and local government action only, and no action. Overall, we find that only respondents in the tax rebate condition were more supportive of a carbon tax than those in the control condition. However, we found that revenue use made no difference in support for Democrats, whereas, a rebate and deficit reduction increased support for conservatives and Republicans relative to the control group. With regard to the rankings of revenue use, a rebate was ranked highest, followed closely by renewable energy, then deficit reduction, and finally general government use, with those in the tax rebate condition ranking a rebate higher and renewable energy investment lower than those in the control group. Finally with regard to climate policy ranking, overall respondents ranked a carbon tax above only no action and the tax rebate condition increased the ranking of a carbon tax overall, as well as for conservatives and Republicans. Taken together these findings suggest that refunding the revenues generated from a carbon tax can increase support, however, a carbon tax remains unpopular relative to other climate policy options.
+conference: Paper prepared for the annual American Political Science Association meeting, August 2019. Partial funding for this project came from the Center for Public Choice and Market Process at the College of Charleston and the Center for Energy, Security and Society at the University of Oklahoma. Please do not cite or distribute without permission.
+...
+
+# Introduction 
+
+ Scientists agree that climate change poses significant risks and the window to keep warming within the Paris Agreement goals of 1.5$^{\circ}$C to 2$^{\circ}$C of warming is rapidly closing. In the United States, partisan polarization on climate change has impeded progress on policies designed to mitigate a changing climate. Much of the polarization is driven by conservative and Republican opposition to command-and-control style regulations [@campbellSolutionAversionRelation2014], as well as well-funded and documented attempts to undermine climate science by industry and conservative groups [@brulleInstitutionalizingDelayFoundation2014; @brulleClimateLobbySectoral2018]. 
+
+Attempts by the US federal government to address climate change, such as the Clean Power Plan, cap-and-trade, and international agreements, have largely been unsuccessful due to both institutional and political factors [see @nowlinEnvironmentalPolicymakingEra2019]. Beginning in the early 1980s, regulatory approaches to environmental problems begin to become less popular, and market-based approaches became more accepted. Given the seeming success of the 1990 amendments to the Clean Air Act that created a market-based cap-and-trade program to reduce sulfur dioxide pollution, approaches to price carbon have become increasing popular in the US and around the world, despite political and implementation challenges [@rabeCanWePrice2018]. However, the US Congress in 2009-2010 failed to pass a federal cap-and-trade program to address climate change. A carbon tax is another carbon pricing mechanism that is seen as a more efficient way to price carbon than a cap-and-trade program [@nordhausCarbonTaxesMove2010]. However, political and public support for a carbon tax is relatively low [@carattiniHowWinPublic2019]. Additionally, debates regarding a carbon tax often hinge on the use of the revenue that such a tax would generate [@maestre-andresPerceivedFairnessPublic2019]. 
+
+In this paper, we examine public support for a carbon tax contingent on how the revenue would be used. Using a survey experiment, we provide respondents with some basic information regarding a proposed federal carbon tax, then we randomly assign respondents to one of five tracks for how the tax revenue would be used including a) a tax rebate, b) investment in renewable energy, c) reduce the budget deficit, d) go into the government's general fund, or e) a control group with no mention of how the revenue would be used. Support for a carbon tax was measured before and after the experiment. We find that, overall, those in the tax rebate condition saw a greater shift in support for a carbon tax relative to those in the control group. In addition, conservatives and Republicans saw significant shifts in support in both the tax rebate and deficit reduction condition. 
+
+Additionally, we measure how respondents rank their preferred use of revenue. We find that respondents ranked a tax rebate highest, followed by renewable energy investments, deficit reduction, and then the general fund. We also found that the ranking of a tax rebate _increased_ for those in the tax rebate condition, yet _decreased_ for those in the renewable energy treatment.  
+
+Finally, we measure support for a carbon tax relative to other climate policies and find that a carbon tax ranks low — above only no action on climate — but those in the tax rebate condition ranked a carbon tax higher than those in the control group. Overall, our finding suggest that proposed revenue use can increase support for a carbon tax, yet a carbon tax has less public support than other climate policies.       
+
+# Carbon Tax and Public Opinion 
+Climate change has been termed  the “mother of all externalities” [@tolEconomicEffectsClimate2009, 29]. A key feature of externalities is that they shift some of the costs of a transaction beyond the buyers and sellers onto other parties, thereby creating a market failure. In the case of climate change, greenhouse gas emissions have a global impact, regardless of the geographic point of emissions. Multiple policy mechanisms exist to address the externalities associated with climate change such as regulations that limit greenhouse gas emissions and carbon pricing schemes that increase the price of carbon use to account for the total cost. 
+
+Many economists argue that because of the variety of greenhouse gas emission sources carbon pricing approaches, such as cap-and-trade and a carbon tax, are likely more efficient and effective than regulatory approaches [see @aldyPromiseProblemsPricing2012; @andrewMarketFailureGovernment2008; @avi-yonahCombatingGlobalClimate2009]. However, carbon pricing is relatively unpopular in the US and the federal government has been unable to enact any meaningful carbon pricing policies. Carbon taxes have stalled at the state level as well. For instance, voters in the state of Washington have rejected ballot initiatives to enact a state-wide carbon tax in both 2016 and 2018.      
+
+Enacting any type of climate policy would require broad public support, yet views about climate change are sharply divided along ideological and partisan lines, making such broad-based support difficult. Previous research has shown that support for various climate policies are just as polarized as other climate change views [@drewsWhatExplainsPublic2016]. In addition, market-based approaches, such as a carbon tax, tend to have less public support than traditional regulatory approaches [@rabeStateEnergyPolicy2017; @rhodesExploringCitizenSupport2017; @nowlinEnvironmentalPolicymakingEra2019; @harringSignificancePoliticalCulture2019]. 
+
+With regard to a carbon tax, public support can vary along several dimensions. For example, framing is likely to be important, with policies that are labeled a “tax” or explicitly connected to climate are not likely to receive support [@rabeCarbonTaxationPolicy2012; @paragPolicyAttributeFraming2011; @brannlundTaxNotTax2012]. A climate connection to a policy has been shown to reduce support among Republicans [@feldmanClimateChangePolarizing2018]. In addition, @baranziniEffectivenessEarmarkingLabeling2017 found that, among residents of Switzerland, a tax that was labeled a “climate contribution” received more public support than the same policy labeled as a “carbon tax.” 
+
+Another factor is the perceived fairness of the tax [@maestre-andresPerceivedFairnessPublic2019]. A carbon tax, as with related taxes on energy consumption, are by their nature regressive. They are regressive because those with lower incomes are likely to pay a higher proportion of their income towards the tax. Therefore, those with lower incomes bear a disproportionate share of the cost of the policy. This can make a carbon tax less popular, and this affect is particularly strong in rural areas [@beckRuralMythSources2016].  
+
+Perhaps the most important factor is how the revenue generated from the carbon tax is to be used.  A 2014 survey by scholars from Muhlenberg College and the University of Michigan found that, overall support for a carbon tax was low at 34%, but that support increased in subsequent questions that specified the use of revenue to 56% support with a tax rebate and 60% support when the revenue was used toward the development of renewable energy [@amdurPublicViewsCarbon2014]. Additionally, @kotchenPublicWillingnessPay2017 asked US respondents whether they supported or opposed ten possible uses of revenue generated by a carbon tax, and found that support for clean energy received the highest level of support at nearly 80%. Finally, other work has shown similar findings when considering a cap-and-trade policy. @millsCapandTradeSupportLinked2015 found that support for cap-and-trade increased when revenues were said to go towards energy efficiency, renewable energy, and a reduction of other taxes. 
+
+As noted, several studies have shown that respondents generally prefer that any revenue generated through carbon pricing policies be used for investments in renewable energy or other energy technology. Yet, other work has shown that support for a carbon tax could also increase when the revenue is refunded to tax payers [@carattiniHowWinPublic2019]. Indeed, providing a refund could mitigate some of the fairness concerns of a regressive carbon tax. Additionally, some conservatives [@taylorConservativeCaseCarbon2015] and some Republicans, such as former Secretaries of State James Baker and George Shultz and former Treasury secretary Henry Paulson, have publicly support a revenue-neutral carbon tax [@schwartzConservativeClimateSolution2017]. This elite support has the potential to increase support among conservatives and Republicans in the general public.  
+
+## Explaining Public Support for a Carbon Tax 
+
+Overall, the literature suggests that a carbon tax does not receive broad support from the public as a way to address climate change. However, previous research has shown that public support can increase, particularly based on the how the revenue from the proposed tax is to be used. To examine the potential for revenue use to increase (decrease) support for a carbon tax, we designed a survey experiment to randomly assign respondents into one of five tracks that discuss how the revenue from the tax is to be spent. To the best of our knowledge, this is the first study to use a survey experiment to manipulate revenue use to examine support for a carbon tax.  
+
+The uses of revenue include a tax rebate, investment in renewable energy technology, deficit reduction, the federal government’s general fund, and a control group that includes no discussion of revenue use. Based on previous research, _we expect support for a carbon tax to increase among respondents in the tax rebate and renewable energy conditions compared to those in the control group_. In addition, we expect there to be ideological and partisan differences in the extent to which these conditions impact support, particularly with conservatives and Republicans. Because of some small, but perhaps growing, elite support for a revenue-neutral carbon tax among conservatives and Republicans, _we expect support for a carbon tax increase among conservative and Republican respondents in the tax rebate condition as opposed to those in the control group_. Additionally, conservative and Republican elites have long raised concerns about budget deficits and debt therefore, _we expect support for a carbon tax to increase among conservative and Republican respondents in the deficit reduction condition as opposed to those in the control group_.
+
+In addition to general support for a carbon tax, we also asked respondents to rank their preferred use of the revenues. Overall, _we expect a tax rebate and renewable energy to be ranked higher than deficit reduction or the general fund_. Additionally, because of possible priming affects, _we expect respondents to be responsive to the experimental conditions and rank the revenue use they were given higher than the others_. For example, a respondent in the tax rebate condition is expected to rank a tax rebate higher than those in the other tracks. 
+
+Finally, we asked respondents to rank their support for a carbon tax relative to other potential climate policies including Environmental Protection Agency regulations; international agreements; state and local government action; cap-and-trade; and no action. Overall, _we expect respondents in the tax rebate and renewable energy conditions to rank a carbon tax higher than those in the control group_. As with general support, we expect ideological and partisan differences in the ranking of climate policies. Specifically, _we expect conservative and Republican respondents in the tax rebate and deficit reduction conditions to rank a carbon tax higher than those in the control group_.  The next section discusses the data and specific question wording used for the analysis. 
+
+# Data and Analysis 
+
+```{r setup, include=FALSE, message=FALSE}
+knitr::opts_knit$set(root.dir = normalizePath(".."))
+```
+
+```{r, include=FALSE, message=FALSE}
+source("scripts/data-recodes.R")
+library(tidyverse)
+library(dotwhisker)
+library(broom)
+
+treat <- table(CTdata$treatment)
+as.vector(treat)
+```
+
+To test our hypotheses we use data from a representative sample of the US adults (age 18+). Specifically, the data is drawn from a quota-based sample provided by Qualtrics. Quotas were based on US Census estimates and matched for age, gender, and race/ethnicity. The data was collected through a survey that was administered online in June and July, 2018. Overall, data was obtained from `r nrow(CTdata)` respondents. 
+
+## Revenue Use Survey Experiment 
+
+As noted, we used a survey experiment to test our hypotheses regarding the connection between views on a carbon tax and revenue use. For the experiment, we varied how the revenues generated from the tax would be used. All respondents were given the following prompt, which introduced a carbon tax and provided pro and con arguments: 
+
+> As you may know, governments at all levels are considering various policy options to reduce the amount of greenhouse gases in the atmosphere in an effort to mitigate the possible impacts of climate change. One policy option is a **carbon tax**. A carbon tax places a tax on the amount of carbon dioxide, a potent greenhouse gas, that businesses emit in an effort to motivate businesses and consumers to reduce their overall carbon emissions. 
+
+> [_support and oppose arguments were given in random order_]
+
+> _Supporters_ argue that a carbon tax is a way to include the costs to society of the use of carbon dioxide that isn’t currently covered in the price of goods and services. In addition, supporters argue that a carbon tax is inexpensive to administer, and would motivate businesses and consumers to use practices and technologies that would emit less carbon.
+
+> _Opponents_ of a carbon tax argue that it would increase the price of goods and services, which would hurt economic growth and development. In addition, opponents argue the proper amount of the tax is difficult to determine, and the increased costs would disproportionately impact those with less income. 
+
+Respondents were then asked their support for a carbon tax on a 1 to 7 scale, with 1 being _strongly oppose_ and 7 being _strongly support_. The mean for support was 
+`r round(mean(CTdata$pre_support, na.rm=TRUE),2)`, sd = 
+`r round(sd(CTdata$pre_support, na.rm = TRUE),2)`. 
+
+Next, respondents were randomly placed into one of five experimental conditions for revenue use, starting with the prompt: **The tax would be administered by the ...** 
+
+\noindent \textbf{General Fund} (n=`r treat[length(treat)-3]`): _...federal government, and the revenue generated from the tax would be placed into the federal government’s general fund to be appropriated, just like the income tax_. 
+
+\noindent \textbf{Reduce Budget Deficit} (n=`r treat[length(treat)-2]`): _...federal government, and the revenue generated from the tax would be used by the federal government to reduce the budget deficit_.
+
+\noindent \textbf{Renewable Technology} (n=`r treat[length(treat)-1]`): _...federal government, and the revenue generated from the tax would be used by the federal government to support research and development of renewable energy technology_. 
+
+\noindent \textbf{Tax Rebate} (n=`r treat[length(treat)]`): _...federal government, and the revenue generated from the tax would be refunded to the public with each adult in the United States receiving a rebate of the same amount_. 
+
+\noindent \textbf{Control} (n=`r treat[length(treat)-4]`): _...federal government_. 
+
+Following the experiment, respondents were again asked their support for a carbon tax. The post-treatment mean was 
+`r round(mean(CTdata$post_support, na.rm=TRUE),2)`, sd = `r round(sd(CTdata$post_support, na.rm = TRUE),2)`. Overall, there was little change in support, however, there were differences across the various conditions. The next section presents the changes in support by revenue use for the entire sample as well as for sub-samples based on ideology and partisanship. 
+
+# Results 
+
+```{r, include=FALSE, message=FALSE}
+# base model
+CTdata$support_diff <- CTdata$post_support - CTdata$pre_support
+base_model <- lm(support_diff~treatment, data=CTdata)
+dwplot(base_model, 
+       vline = geom_vline(xintercept = 0, colour = "grey60", linetype = 2)) %>% 
+       relabel_predictors(c(treatmentGeneralFund = "General Fund",
+                            treatmentReduceBudgetDeficit = "Reduce Budget\nDeficit",
+                            treatmentRenewableTechnology = "Renewable\nTechnology",
+                            treatmentTaxRebate = "Tax Rebate")) + 
+  theme_bw() + xlab("Coefficient Estimate") + ylab("") + 
+  ggtitle("") +
+  theme(plot.title = element_text(face="bold"),
+        legend.position = "none") +
+  scale_colour_grey(start = .1, end = .1)
+ggsave("fig-output/model.png") 
+
+# ideology models 
+lib_model <- lm(support_diff~treatment, data=subset(CTdata, lib==1))
+con_model <- lm(support_diff~treatment, data=subset(CTdata, con==1))
+
+dwplot(list(lib_model,con_model),
+       vline = geom_vline(xintercept = 0, colour = "grey60", linetype = 2)) %>% 
+  relabel_predictors(c(treatmentGeneralFund = "General Fund",
+                       treatmentReduceBudgetDeficit = "Reduce Budget\nDeficit",
+                       treatmentRenewableTechnology = "Renewable\nTechnology",
+                       treatmentTaxRebate = "Tax Rebate")) + 
+  theme_bw() + xlab("Coefficient Estimate") + ylab("") + 
+  ggtitle("Ideology") +
+  theme(plot.title = element_text(face="bold"),
+        legend.position = "bottom",
+        legend.title = element_blank()) +
+  scale_colour_grey(start = .3, end = .7,
+                    labels = c("Liberal", "Conservative"))
+ggsave("fig-output/ideology-model.png") 
+
+# partisan models 
+dem_model <- lm(support_diff~treatment, data=subset(CTdata, dem==1))
+rep_model <- lm(support_diff~treatment, data=subset(CTdata, rep==1))
+
+dwplot(list(dem_model,rep_model),
+       vline = geom_vline(xintercept = 0, colour = "grey60", linetype = 2)) %>% 
+  relabel_predictors(c(treatmentGeneralFund = "General Fund",
+                       treatmentReduceBudgetDeficit = "Reduce Budget\nDeficit",
+                       treatmentRenewableTechnology = "Renewable\nTechnology",
+                       treatmentTaxRebate = "Tax Rebate")) + 
+  theme_bw() + xlab("Coefficient Estimate") + ylab("") + 
+  ggtitle("Partisanship") +
+  theme(plot.title = element_text(face="bold"),
+        legend.position = "bottom",
+        legend.title = element_blank()) +
+  scale_colour_grey(start = .3, end = .7,
+                    labels = c("Democrat", "Republican"))
+ggsave("fig-output/partisan-model.png")  
+```
+
+
+As noted, we expect support for the carbon tax to vary based on the proposed use of the revenue generated from the tax. To test this, we examined the difference in support pre and post the experimental treatment. The average level of support before the experiment was `r round(mean(CTdata$pre_support, na.rm=TRUE),2)` on the 1 to 7 scale and the average support after was 
+`r round(mean(CTdata$post_support, na.rm=TRUE),2)`, for a mean difference of `r round(mean(CTdata$support_diff, na.rm=TRUE),2)`. Our dependent variable in the subsequent analysis in the difference between pre-support and post-support. We use linear regression, and since this is an experiment with participants randomly assigned, the analysis presented does not include control variables.^[<!--The models with control variables are in the appendix.--> Note there was little change in the estimated coefficients with the control variables included.] The results are shown in Figure \ref{fig:model}.
+
+\begin{figure}[H]
+\caption{Shifts in Support for a Carbon Tax by Revenue Use \label{fig:model}}
+\includegraphics[width = 5in, height= 4in]{../fig-output/model.png}
+\end{figure}
+
+Figure \ref{fig:model} presents a coefficient plot with 95% confidence intervals. As can be seen, those in the tax rebate condition were significantly more likely to increase their support for a carbon tax, relative to those in the control group. On average, respondent in the tax rebate group increased their support by 
+`r round(summary(base_model)$coefficients[5,1],3)` on the 1 to 7 scale. However, contrary to our expectations those in the renewable energy condition did not differ in their support from those in the control group.  
+
+Next, we examine support across ideological and partisan groups. Ideology was measured by asking respondents to place themselves on a 1 (strongly liberal) to 7 (strongly conservative) scale. The mean for the ideology scale was 
+`r round(mean(CTdata$ideology, na.rm=TRUE),2)`, sd = `r round(sd(CTdata$ideology, na.rm = TRUE),2)`. For the analysis, those that selected a 3 or less were coded as liberal, and those that selected a 5 or more were considered conservative. To measure partisanship, respondents were asked their party affiliation and their strength of attachment to the party. Independents were asked toward which party they leaned, and the party variables captures independent leaners to those that have a strong attachment to the Democratic or Republican parties. For the analysis, we subset liberals, conservatives, Republicans, and Democrats. The results are shown in Figure \ref{fig:pol-models}      
+
+\begin{figure}[H]
+\caption{Shifts in Support for a Carbon Tax by Revenue Use and Political Beliefs \label{fig:pol-models}}
+\begin{subfigure}[b]{0.3\textwidth}
+    \includegraphics[width = 3in, height= 3in]{../fig-output/ideology-model.png}
+\end{subfigure}
+\hspace{1.5in} %
+\begin{subfigure}[b]{0.3\textwidth}
+    \includegraphics[width = 3in, height= 3in]{../fig-output/partisan-model.png}
+\end{subfigure}
+\end{figure}
+
+As shown in Figure \ref{fig:pol-models} and as expected conservatives and Republicans in the tax rebate and reduce budget deficit conditions (Republicans at p$<$.10) saw a larger and significant shift in support for a carbon tax than conservatives and Republicans in the control group. For liberals and Democrats, liberals in the tax rebate condition showed increased support for a carbon tax (with p$<$.10) over liberals in the control group, and no other significant shifts were present.
+
+Next, we examine how respondents rank their preferred use of the revenue generated by the carbon tax. 
+
+## Ranking of Revenue Use  
+```{r, include=FALSE, message=FALSE}
+revenue_rank_data <- data.frame(
+  rev_use = factor(c("General Fund", "Deficit Reduction", "Renewable Energy", "Tax Rebate"), 
+           levels=c("General Fund", "Deficit Reduction", "Renewable Energy", "Tax Rebate")), 
+  revenue_rank <- c(round(mean(CTdata$revenue_rank_fund,na.rm=T),3),round(mean(CTdata$revenue_rank_deficit,na.rm=T),3),round(mean(CTdata$revenue_rank_renew,na.rm=T),3),round(mean(CTdata$revenue_rank_refund,na.rm=T),3)))
+
+ggplot(data = revenue_rank_data, aes(x=rev_use, y=revenue_rank)) +
+  geom_bar(stat="identity") +
+  coord_flip() +
+  theme_bw() + xlab("") + ylab("Mean Rank") +
+  ggtitle("") +
+  theme(plot.title = element_text(face="bold"))
+ggsave("fig-output/rev-rank-graph.png")
+
+fund_rank_model <- lm(revenue_rank_fund~treatment, data=CTdata)
+deficit_rank_model <- lm(revenue_rank_deficit~treatment, data=CTdata)
+renew_rank_model <- lm(revenue_rank_renew~treatment, data=CTdata)
+refund_rank_model <- lm(revenue_rank_refund~treatment, data=CTdata)
+
+dwplot(fund_rank_model, 
+       vline = geom_vline(xintercept = 0, colour = "grey60", linetype = 2)) %>% 
+  relabel_predictors(c(treatmentGeneralFund = "General Fund",
+                       treatmentReduceBudgetDeficit = "Reduce Budget\nDeficit",
+                       treatmentRenewableTechnology = "Renewable\nTechnology",
+                       treatmentTaxRebate = "Tax Rebate")) + 
+  theme_bw() + xlab("Coefficient Estimate") + ylab("") + 
+  ggtitle("General Fund Condition") +
+  theme(plot.title = element_text(face="bold"),
+        legend.position = "none") +
+  scale_colour_grey(start = .1, end = .1)
+ggsave("fig-output/fund-rank-model.png")  
+
+dwplot(deficit_rank_model, 
+       vline = geom_vline(xintercept = 0, colour = "grey60", linetype = 2)) %>% 
+  relabel_predictors(c(treatmentGeneralFund = "General Fund",
+                       treatmentReduceBudgetDeficit = "Reduce Budget\nDeficit",
+                       treatmentRenewableTechnology = "Renewable\nTechnology",
+                       treatmentTaxRebate = "Tax Rebate")) + 
+  theme_bw() + xlab("Coefficient Estimate") + ylab("") + 
+  ggtitle("Deficit Reduction Condition") +
+  theme(plot.title = element_text(face="bold"),
+        legend.position = "none") +
+  scale_colour_grey(start = .1, end = .1)
+ggsave("fig-output/deficit-rank-model.png")  
+
+dwplot(renew_rank_model, 
+       vline = geom_vline(xintercept = 0, colour = "grey60", linetype = 2)) %>% 
+  relabel_predictors(c(treatmentGeneralFund = "General Fund",
+                       treatmentReduceBudgetDeficit = "Reduce Budget\nDeficit",
+                       treatmentRenewableTechnology = "Renewable\nTechnology",
+                       treatmentTaxRebate = "Tax Rebate")) + 
+  theme_bw() + xlab("Coefficient Estimate") + ylab("") + 
+  ggtitle("Renewable Technology Condition") +
+  theme(plot.title = element_text(face="bold"),
+        legend.position = "none") +
+  scale_colour_grey(start = .1, end = .1)
+ggsave("fig-output/renew-rank-model.png")  
+
+dwplot(refund_rank_model, 
+       vline = geom_vline(xintercept = 0, colour = "grey60", linetype = 2)) %>% 
+  relabel_predictors(c(treatmentGeneralFund = "General Fund",
+                       treatmentReduceBudgetDeficit = "Reduce Budget\nDeficit",
+                       treatmentRenewableTechnology = "Renewable\nTechnology",
+                       treatmentTaxRebate = "Tax Rebate")) + 
+  theme_bw() + xlab("Coefficient Estimate") + ylab("") + 
+  ggtitle("Tax Rebate Condition") +
+  theme(plot.title = element_text(face="bold"),
+        legend.position = "none") +
+  scale_colour_grey(start = .1, end = .1)
+ggsave("fig-output/refund-rank-model.png")  
+
+```
+
+
+Previous research [e.g., @kotchenPublicWillingnessPay2017] has found that the public generally prefers revenues from carbon pricing policies be used to invest in renewable energy. Following the experiment, we asked respondents to rank their preferred use of the revenues generated from the proposed carbon tax. The results are shown in Figure \ref{fig:rev-rank}.   
+
+\begin{figure}[H]
+\caption{Ranking of Carbon Tax Revenue Use \label{fig:rev-rank}}
+\includegraphics[width = 5in, height= 4in]{../fig-output/rev-rank-graph.png}
+\end{figure}
+
+As shown, respondents ranked a tax rebate first with an average ranking of 
+`r round(mean(CTdata$revenue_rank_refund,na.rm=T),2)`, followed closely by renewable energy investments with an average ranking of `r round(mean(CTdata$revenue_rank_renew,na.rm=T),2)`. On average, deficit reduction was ranked third at `r round(mean(CTdata$revenue_rank_deficit,na.rm=T),2)`, and general fund was ranked last at 
+`r round(mean(CTdata$revenue_rank_fund,na.rm=T),2)`. We expect that the experimental tracks will influence how respondents ranked the use of revenues. Figure \ref{fig:rev-models} shows the average ranking across each treatment. 
+
+\begin{figure}[H]
+\centering
+\caption{Ranking of Carbon Tax Revenue Use by Experimental Treatment \label{fig:rev-models}}
+\begin{subfigure}[b]{0.3\textwidth}
+    \includegraphics[width = 2in, height= 2in]{../fig-output/refund-rank-model.png}
+\end{subfigure}
+\hspace{0.5in} %
+\begin{subfigure}[b]{0.3\textwidth}
+    \includegraphics[width = 2in, height= 2in]{../fig-output/renew-rank-model.png}
+\end{subfigure}
+\vskip\baselineskip
+\begin{subfigure}[b]{0.3\textwidth}
+    \includegraphics[width = 2in, height= 2in]{../fig-output/deficit-rank-model.png}
+\end{subfigure}
+\hspace{0.5in} %
+\begin{subfigure}[b]{0.3\textwidth}
+    \includegraphics[width = 2in, height= 2in]{../fig-output/fund-rank-model.png}
+\end{subfigure}
+\end{figure}
+
+As can be seen, those in the tax rebate condition were significantly more likely to rank a tax rebate higher than those in the other conditions.^[Since a lower number indicates a higher ranking (i.e., closer to 1) the coefficient in negative.] Interestingly, those in the tax rebate condition ranked renewable energy investments significantly lower than those in the control group. There were no other significant difference. This was not in line with our hypothesis, as we expected the rankings to match the experimental track in which respondents were placed. In line with our expectations, we see that those in the reduce deficit condition were more likely than those in the control group to rank deficit reduction higher, at p$<$.10. Finally, there were no significant differences between those in general fund condition and the control group.      
+
+Next, we examine support for a carbon tax relative to other climate policy options. As before, we examine support for the entire sample as well ideological and partisan sub-samples. 
+
+## Support for a Carbon Tax Relative to Other Climate Policies 
+```{r, include=FALSE, message=FALSE}
+policies_rank_data <- data.frame(
+  policy = factor(c("No Action", "Carbon Tax", "Cap-and-Trade", "International Agreement", "State and Local Gov", "EPA Regulations"), 
+           levels=c("No Action", "Carbon Tax", "Cap-and-Trade", 
+                           "International Agreement", "State and Local Gov", 
+                           "EPA Regulations")), 
+mean_rank = c(round(mean(CTdata$no_action_rank,na.rm=TRUE),3),round(mean(CTdata$carbon_tax_rank, na.rm=TRUE),3),round(mean(CTdata$cap_trade_rank, na.rm=TRUE),3),round(mean(CTdata$int_agree_rank, na.rm=TRUE),3),round(mean(CTdata$local_gov_rank, na.rm=TRUE),3),round(mean(CTdata$epa_regs_rank, na.rm=TRUE),3)))
+
+
+policies_support_data <- data.frame(
+  policy = factor(c("Carbon Tax", "Cap-and-Trade", "State and Local Gov", "International Agreement", "EPA Regulations"), 
+           levels=c("Carbon Tax", "Cap-and-Trade", 
+                           "State and Local Gov", 
+                           "International Agreement", 
+                           "EPA Regulations")), 
+mean_support = c(round(mean(CTdata$post_support,na.rm=TRUE),3),round(mean(CTdata$cap_trade, na.rm=TRUE),3),round(mean(CTdata$local_gov, na.rm=TRUE),3),round(mean(CTdata$int_agree, na.rm=TRUE),3),round(mean(CTdata$epa_regs, na.rm=TRUE),3)))
+
+ggplot(data = policies_rank_data, aes(x=policy, y=mean_rank)) +
+  geom_bar(stat="identity") +
+  coord_flip() +
+  theme_bw() + xlab("") + ylab("Mean Rank") +
+  ggtitle("Climate Policy Rank") +
+  theme(plot.title = element_text(face="bold"))
+ggsave("fig-output/rank-graph.png")
+
+
+ggplot(data = policies_support_data, aes(x=policy, y=mean_support)) +
+  geom_bar(stat="identity") +
+  coord_flip() +
+  theme_bw() + xlab("") + ylab("Mean Support") +
+  ggtitle("Climate Policy Support") +
+  theme(plot.title = element_text(face="bold"))
+ggsave("fig-output/support-graph.png")
+
+base_rank_model <- lm(carbon_tax_rank~treatment, data=CTdata)
+
+dwplot(base_rank_model, 
+       vline = geom_vline(xintercept = 0, colour = "grey60", linetype = 2)) %>% 
+  relabel_predictors(c(treatmentGeneralFund = "General Fund",
+                       treatmentReduceBudgetDeficit = "Reduce Budget\nDeficit",
+                       treatmentRenewableTechnology = "Renewable\nTechnology",
+                       treatmentTaxRebate = "Tax Rebate")) + 
+  theme_bw() + xlab("Coefficient Estimate") + ylab("") + 
+  ggtitle("") +
+  theme(plot.title = element_text(face="bold"),
+        legend.position = "none") +
+  scale_colour_grey(start = .1, end = .1)
+ggsave("fig-output/rank-model.png")  
+
+lib_rank_model <- lm(carbon_tax_rank~treatment, data=subset(CTdata, lib==1))
+con_rank_model <- lm(carbon_tax_rank~treatment, data=subset(CTdata, con==1))
+
+dwplot(list(lib_rank_model,con_rank_model),
+       vline = geom_vline(xintercept = 0, colour = "grey60", linetype = 2)) %>% 
+  relabel_predictors(c(treatmentGeneralFund = "General Fund",
+                       treatmentReduceBudgetDeficit = "Reduce Budget\nDeficit",
+                       treatmentRenewableTechnology = "Renewable\nTechnology",
+                       treatmentTaxRebate = "Tax Rebate")) + 
+  theme_bw() + xlab("Coefficient Estimate") + ylab("") + 
+  ggtitle("Ideology") +
+  theme(plot.title = element_text(face="bold"),
+        legend.position = "bottom",
+        legend.title = element_blank()) +
+  scale_colour_grey(start = .3, end = .7,
+                    labels = c("Liberal", "Conservative"))
+ggsave("fig-output/ideology-rank-model.png")  
+
+
+dem_rank_model <- lm(carbon_tax_rank~treatment, data=subset(CTdata, dem==1))
+rep_rank_model <- lm(carbon_tax_rank~treatment, data=subset(CTdata, rep==1))
+
+dwplot(list(dem_rank_model,rep_rank_model),
+       vline = geom_vline(xintercept = 0, colour = "grey60", linetype = 2)) %>% 
+  relabel_predictors(c(treatmentGeneralFund = "General Fund",
+                       treatmentReduceBudgetDeficit = "Reduce Budget\nDeficit",
+                       treatmentRenewableTechnology = "Renewable\nTechnology",
+                       treatmentTaxRebate = "Tax Rebate")) + 
+  theme_bw() + xlab("Coefficient Estimate") + ylab("") + 
+  ggtitle("Partisanship") +
+  theme(plot.title = element_text(face="bold"),
+        legend.position = "bottom",
+        legend.title = element_blank()) +
+  scale_colour_grey(start = .3, end = .7,
+                    labels = c("Democrat", "Republican"))
+ggsave("fig-output/partisan-rank-model.png")  
+
+
+
+```
+
+
+Following the revenue experiment, respondents were asked to indicate their support for other climate policies on 1 (strongly oppose) to 7 (strongly support) scale. The policy options were randomized order and included: 
+
+\noindent \textbf{Cap-and-Trade}: A national **cap-and-trade** program administered by the federal government, where the government sets limits on the overall amount of greenhouse gases that business can emit and issues emission permits to businesses that they can use or sell to other businesses.  
+
+\noindent \textbf{EPA Regulations}: **Federal government regulations** administered by the Environmental Protection Agency that limit the amount of greenhouse gases that power plants can emit.
+
+\noindent \textbf{International Agreement}: An **international agreement** that sets binding limits on the amount of greenhouse gases that the United States can emit.
+
+\noindent \textbf{State and Local Governments}: Policies developed and decided by **state and local governments** to address climate change, with limited federal government action or involvement.
+
+Next, respondents were asked to rank their preferred policy option -- including the carbon tax as well as a no action option -- from 1 (most preferred) to 6 (least preferred). Figure \ref{fig:support-rank} shows the average support as well as average ranking for each policy option.^[Carbon tax support was based on post-treatment responses.] 
+
+\begin{figure}[H]
+\caption{Support and Ranking for Various Climate Policies \label{fig:support-rank}}
+\begin{subfigure}[b]{0.3\textwidth}
+    \includegraphics[width = 3.5in, height= 3in]{../fig-output/support-graph.png}
+\end{subfigure}
+\hspace{1.5in} %
+\begin{subfigure}[b]{0.3\textwidth}
+    \includegraphics[width = 3.5in, height= 3in]{../fig-output/rank-graph.png}
+\end{subfigure}
+\end{figure}
+
+
+As can be seen, the mean level of support and the mean rankings line up closely. EPA regulations received the highest average support as well as the highest average ranking, followed by an international agreement and state and local government action. The carbon pricing options of cap-and-trade and a carbon tax were lowest, yet no action was ranked lowest among the policy options.  
+
+Next, we examine how a carbon tax was ranked, relative to the other policy options, based on revenue use. We expect that those in the tax rebate and renewable energy conditions to rank a carbon tax higher relative to those in the control group. The results are shown in Figure \ref{fig:rank-model}. 
+
+\begin{figure}[H]
+\caption{Carbon Tax Ranking by Revenue Use \label{fig:rank-model}}
+\includegraphics[width = 5in, height= 4in]{../fig-output/rank-model.png}
+\end{figure}
+
+As shown and as expected, those in the tax rebate condition ranked a carbon tax higher than those in the control group.^[As with the revenue rankings, a lower number indicates a higher ranking (i.e., closer to 1), so the coefficient is negative.] However, there were no differences between the control group and those in the renewable energy track. Next, we examine the rankings across ideology and partisanship and we expect conservative and Republican respondents in the tax rebate and deficit reduction conditions to rank a carbon tax higher than those in the control group. The results are shown in Figure \ref{fig:pol-rank-models}. 
+
+
+\begin{figure}[H]
+\caption{Carbon Tax Ranking by Revenue Use and Political Beliefs \label{fig:pol-rank-models}}
+\begin{subfigure}[b]{0.3\textwidth}
+    \includegraphics[width = 3in, height= 3in]{../fig-output/ideology-rank-model.png}
+\end{subfigure}
+\hspace{1.5in} %
+\begin{subfigure}[b]{0.3\textwidth}
+    \includegraphics[width = 3in, height= 3in]{../fig-output/partisan-rank-model.png}
+\end{subfigure}
+\end{figure}
+
+Similar to the findings for support and as expected, conservatives and Republicans in the tax rebate condition ranked a carbon tax higher than those in the control group. However, there were no differences for those in the deficit reduction condition. Finally, there were no differences in how liberals and Democrats ranked a carbon tax. 
+
+
+# Discussion and Conclusion 
+
+As countries consider various policies to mitigate the worst impacts of climate change, what the public will support is likely in the forefront of the minds of elected officials. Many economists and policy analysts agree that a carbon tax is likely an efficient and effective policy instrument to reduce carbon dioxide emissions. However, a carbon tax is perhaps the least popular climate policy option among the public. 
+
+One of the leading disputes regarding a carbon tax is how the revenues should be used. Generally, the public seems to be most supportive of using the revenues to invest in renewable energy or a tax rebate. However, little research has been conducted to directly compare how views about a carbon tax are influenced by the proposed uses of the revenue. In this study, we leverage a survey experiment that varies revenue use to see how opinions regarding a carbon tax change. 
+
+Based on previous research, we expected a tax rebate and renewable energy investment to increase support for a carbon tax, as well as be the mostly highly ranked revenue uses, and increase support for a carbon tax vis-a-vis other policy options. With regard to shifts in support, we found that, overall, those in the tax rebate treatment increased their support, compared to those in the control group that saw no mention of revenue use. However, contrary to our expectations, we saw no differences between those in the renewable energy condition and the control group. The lack of finding with the renewable energy treatment is interesting and deserves further examination. Renewable energy is popular across the ideological and partisan spectrum, however, connecting renewable energy to climate change and a tax may have dampened some of that support. Further research should examine support for increased renewable energy that is not connected to climate change, such as an “energy” tax as opposed to a “carbon” tax. 
+
+We also expected shifts in support to vary along ideological and partisan lines, with conservatives and Republicans in the tax rebate and deficit reduction conditions showing increased support compared to those in the control group. That is what we found. Interestingly, for liberals and Democrats, only liberals in the tax rebate condition saw a slight increase in support, at p~$<$~.10, compared to the control group.^[Analysis not reported here shows that liberals and Democrats were more supportive than conservatives and Republicans of a carbon tax  prior to the mention of revenue use.]
+
+Apart from overall support (opposition) to a carbon tax, we were also interested in whether or not exposure to different revenue uses shifted views on preferred revenue use as well as views about a carbon tax relative to other climate policies. First, we asked respondents to rank their preferred use of the carbon tax revenue, and we expected those rankings to be somewhat reflective of the track in which respondents were placed. Overall, we found that a tax rebate and renewable energy investment was ranked, on average, 1st and 2nd respectively, but with little difference. Whereas, deficit reduction and the general fund were ranked 3rd and 4th. 
+
+Second and as we expected, some differences in ranking were found across revenue use conditions with those in the tax rebate condition ranking it higher. Interestingly, those in the renewable energy track ranked a tax rebate lower, which shows that perhaps priming respondents with a renewable energy investment depresses support for a tax rebate. 
+
+Finally, with regard to the ranking of climate policies we found, consistent with previous research, that regulations received the highest average support and were ranked highest, whereas carbon pricing policies received the lowest average support and were ranked lowest, above only no action. However, we expected and found that those in the tax rebate condition ranked a carbon tax higher, on average, than those in the control group. Yet, contrary to expectations there were no differences with those in the renewable technology treatment. With regard to ideological and partisan differences, we found that conservatives and Republicans in the tax rebate condition were more likely than conservatives and Republicans in the control group to rank a carbon tax higher relative to other climate policy options. No other ideological or partisan differences were found.  
+
+Taken together our findings suggest that support for a carbon tax is, in part, connected to how the revenue from the tax is to be used. Most notably, a tax rebate motivated the most noticeable shift toward support, overall, as well as for conservative and Republicans, who would likely be most opposed to a tax increase and/or any climate policy. Additionally, support among conservatives and Republicans also increased when the revenues would be used toward deficit reduction. Despite some revenue uses shifting support, carbon taxes, overall, are less popular than any other policy approach to climate change. Although, using the revenues for a tax rebate does shift relative support for a carbon tax.  
+
+Further research should examine the connection between renewable energy investment and a carbon tax. As noted, previous research has found that investments in renewable energy were the most popular use of carbon pricing revenue. However, our findings did not show an impact for renewable energy investment. Future work should explore this further. Additionally, future research should examine other potential factors that are associated with support (opposition) for a carbon tax. Our focus was exclusively on revenue use, however, other potential factors may include framing effects, media, climate change knowledge, and/or personal impacts from climate change.  
+
+
+\newpage
+
+# References
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\vspace*{-0.2in}
+\singlespace
+\noindent
